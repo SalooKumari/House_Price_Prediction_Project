@@ -1,0 +1,61 @@
+{
+  "best_model": "Ridge Regression (tuned)",
+  "r2": 0.9984262171743145,
+  "mae": 8175.220672224893,
+  "rmse": 10071.953248779539,
+  "n_train": 800,
+  "n_test": 200,
+  "comparison": [
+    {
+      "Model": "Linear Regression",
+      "CV R2 (mean)": 0.9985,
+      "Test R2": 0.9984,
+      "Test MAE": 8174.5836,
+      "Test RMSE": 10071.4844
+    },
+    {
+      "Model": "Lasso Regression",
+      "CV R2 (mean)": 0.9985,
+      "Test R2": 0.9984,
+      "Test MAE": 8174.6609,
+      "Test RMSE": 10071.5062
+    },
+    {
+      "Model": "Ridge Regression",
+      "CV R2 (mean)": 0.9985,
+      "Test R2": 0.9984,
+      "Test MAE": 8241.5869,
+      "Test RMSE": 10123.2895
+    },
+    {
+      "Model": "Gradient Boosting",
+      "CV R2 (mean)": 0.9963,
+      "Test R2": 0.997,
+      "Test MAE": 11401.8053,
+      "Test RMSE": 14018.9549
+    },
+    {
+      "Model": "Random Forest",
+      "CV R2 (mean)": 0.9922,
+      "Test R2": 0.994,
+      "Test MAE": 16071.4637,
+      "Test RMSE": 19728.8177
+    },
+    {
+      "Model": "Decision Tree",
+      "CV R2 (mean)": 0.9835,
+      "Test R2": 0.9849,
+      "Test MAE": 24911.4742,
+      "Test RMSE": 31228.4648
+    }
+  ],
+  "feature_importance": {
+    "Square_Footage": 2.0685716546663184,
+    "Lot_Size": 0.012685511776988364,
+    "House_Age": 0.01247031806636673,
+    "Num_Bedrooms": 0.006445957241070421,
+    "Num_Bathrooms": 0.0015206186846546807,
+    "Garage_Size": 0.0005604598372352942,
+    "Neighborhood_Quality": -3.2518257259583906e-06
+  }
+}
