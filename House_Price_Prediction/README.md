@@ -12,7 +12,7 @@ The project covers data checking, exploratory data analysis, feature engineering
 ## 📂 Dataset
 * File: `house_price_regression_dataset.csv` (included in this folder)
 * Size: 1,000 rows × 8 columns, no missing values
-* Source link: _add the link of the dataset page you downloaded it from (e.g. Kaggle) here_
+* Source link: https://www.kaggle.com/datasets/prokshitha/home-value-insights
 * Features: `Square_Footage`, `Num_Bedrooms`, `Num_Bathrooms`, `Year_Built`, `Lot_Size`, `Garage_Size`, `Neighborhood_Quality`
 * Target: `House_Price`
 
