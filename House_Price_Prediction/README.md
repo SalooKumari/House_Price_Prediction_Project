@@ -76,4 +76,4 @@ The browser opens at `http://localhost:8501`. The app has four pages: **Predict 
 Real-world data with location information, more features, deployment on Streamlit Community Cloud, and price-range (confidence interval) estimates.
 
 ## 👤 Author
-**Your Name** — IBM SkillsBuild Internship
+**Saloo Kumari** — IBM SkillsBuild Internship
